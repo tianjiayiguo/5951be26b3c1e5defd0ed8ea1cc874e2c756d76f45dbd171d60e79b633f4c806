@@ -2,21 +2,16 @@ name: tianjiayiguo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
-
-jobs:  # 3059
+    - cron: '25 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tianjiayiguo
         env:
-          j7: ${{ secrets.j7 }}
+          ulm2290: ${{ secrets.ulm2290 }}
         run: |
-          echo $j7 | jq -r .nfa9 | /bin/bash
-          echo $se8 | jq -r .fjx9 | /bin/bash
-          echo $ep19 | jq -r .rxmci33595 | /bin/bash
-          echo $z7 | jq -r .bpv95682 | /bin/bash
-          echo $esp04 | jq -r .hehq70484 | /bin/bash
-          echo $whgtv3515 | jq -r .gwmip78 | /bin/bash
+          echo $ulm2290 | jq -r .j65428 | /bin/bash
+          echo $zkopm65 | jq -r .katgx52 | /bin/bash
 
